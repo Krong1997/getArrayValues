@@ -1,0 +1,125 @@
+{
+  "_id": "6007a1afbf3c733ae214abc2",
+  "CPU": {
+    "L2": 1536,
+    "L3": 9216,
+    "Manu": "GenuineIntel",
+    "Name": "Intel(R) Core(TM) i5-8500 CPU @ 3.00GHz",
+    "Numofcore": 6
+  },
+  "Dev": {
+    "Alias": "",
+    "Name": "Device00001"
+  },
+  "Ext": {},
+  "MB": {
+    "BIOSManu": "American Megatrends Inc.",
+    "BIOSVer": "ALASKA - 1072009",
+    "Manu": "ASUSTeK COMPUTER INC.",
+    "Product": "PRIME Z370-P",
+    "SN": "180424714102352",
+    "mbTemp": {}
+  },
+  "MEM": {
+    "Cap": 16777216,
+    "Slot": {
+      "0": {
+        "CAS_Ltc": 0,
+        "Cap": 16,
+        "DIMMType": "non-ECC UDIMM",
+        "Date": "32 / 18",
+        "Feature": {
+          "30GF": false,
+          "45GF": false,
+          "AntiSul": 1,
+          "bWP": false,
+          "sICGrade": "Original Grade (IC P/N visible on IC)"
+        },
+        "IC_Brand": "Innodisk",
+        "IC_Cfg": "1Gb x 8",
+        "Manu": "InnoDisk Corporation",
+        "OPTemp": "N/A*",
+        "PN": "i-DIMM",
+        "Rate": 2132,
+        "SN": "00000002",
+        "Therm": "N/A",
+        "Type": "DDR4"
+      }
+    }
+  },
+  "Net": [
+    {
+      "IPaddr": "172.16.92.111",
+      "IPv6": "",
+      "MAC": "4C:ED:FB:69:0E:A5",
+      "Name": "Realtek PCIe GBE Family Controller",
+      "Netmask": "255.255.255.0",
+      "Type": "Ethernet"
+    },
+    {
+      "IPaddr": "172.18.4.161",
+      "IPv6": "",
+      "MAC": "96:15:9F:B4:08:47",
+      "Name": "Hyper-V Virtual Ethernet Adapter",
+      "Netmask": "255.255.255.240",
+      "Type": "Ethernet"
+    },
+    {
+      "IPaddr": "169.254.163.242",
+      "IPv6": "",
+      "MAC": "00:15:5D:24:41:01",
+      "Name": "Hyper-V Virtual Ethernet Adapter #2",
+      "Netmask": "255.255.0.0",
+      "Type": "Ethernet"
+    }
+  ],
+  "Remote": {},
+  "Storage": [
+    {
+      "FWVer": "L17606",
+      "Index": 0,
+      "Model": "2.5\" SATA SSD 3ME4",
+      "Par": {
+        "NumofPar": 1,
+        "ParInfo": [
+          {
+            "Capacity": 249047984,
+            "MountAt": "C:\\"
+          }
+        ],
+        "TotalCap": 250051725
+      },
+      "SN": "20170701AA0000000001"
+    },
+    {
+      "FWVer": "L17606",
+      "Index": 1,
+      "Model": "2.5\" SATA SSD 3ME4",
+      "Par": {
+        "NumofPar": 2,
+        "ParInfo": [
+          {
+            "Capacity": 249047984,
+            "MountAt": "C:\\"
+          },
+          {
+            "Capacity": 249047984,
+            "MountAt": "D:\\"
+          }
+        ],
+        "TotalCap": 510051725
+      },
+      "SN": "20170701AA0000000001"
+    }
+  ],
+  "Sys": {
+    "Latitude": 25.059067,
+    "Longitude": 121.634977,
+    "Name": "INNO-1591-D",
+    "OS": "Microsoft Windows 10 Enterprise",
+    "OSArch": "64-bit",
+    "OSVer": ""
+  },
+  "time": 1611112879,
+  "date": "2021-01-20T03:21:19.694Z"
+}
