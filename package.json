@@ -1,6 +1,6 @@
 {
   "name": "get-object-values",
-  "version": "1.0.0",
+  "version": "1.0.3",
   "description": "",
   "main": "index.js",
   "repository": {
@@ -13,7 +13,5 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "dependencies": {
-    "node": "^15.4.0"
-  }
+  "dependencies": {}
 }
