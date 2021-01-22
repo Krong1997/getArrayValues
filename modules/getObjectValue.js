@@ -1,4 +1,6 @@
-function getObjectValue(obj, keys, fallback) {
+const flatten = require('../modules/flatten');
+
+function getObjectValues(obj, keys, fallback) {
   if (!obj) {
     return fallback;
   }
@@ -11,15 +13,21 @@ function getObjectValue(obj, keys, fallback) {
     keys = keys.split('.')
   }
 
-  for (var i = 0, l = keys.length; obj && i < l; i++) {
-    obj = obj[keys[i]]
+  for (let i = 0, l = keys.length; obj && i < l; i++) {
+    if (Array.isArray(obj)) {
+      obj = flatten(obj.map(item => item[keys[i]]));
+    }
+    if (!Array.isArray(obj)) {
+      obj = obj[keys[i]];
+    }
   }
 
   if (obj === null || typeof obj === 'undefined') {
     return fallback;
   } else {
-    return obj
+    if(Array.isArray(obj)) return obj;
+    return [obj];
   }
 }
 
-module.exports = getObjectValue;
+module.exports = getObjectValues;
