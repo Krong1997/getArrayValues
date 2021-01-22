@@ -1,8 +1,9 @@
 {
   "name": "get-object-values",
-  "version": "1.0.3",
+  "version": "1.0.6",
   "description": "",
   "main": "index.js",
+  "types": "types/index.d.ts",
   "repository": {
     "type": "git",
     "url": "https://github.com/Krong1997/getArrayValues"

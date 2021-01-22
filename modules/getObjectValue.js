@@ -15,6 +15,7 @@ function getObjectValues(obj, keys, fallback) {
 
   for (let i = 0, l = keys.length; obj && i < l; i++) {
     if (Array.isArray(obj)) {
+      obj = flatten(obj);
       obj = flatten(obj.map(item => item[keys[i]]));
     }
     if (!Array.isArray(obj)) {
