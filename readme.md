@@ -7,7 +7,7 @@
 
 範例：
 ```js
-const getObjectValues = require('./modules/getObjectValue');
+const getObjectValues = require('get-object-values');
 
 const input = {
   key: {
